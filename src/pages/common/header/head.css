@@ -1,0 +1,5 @@
+*,html,li,ul{box-sizing: border-box;-webkit-box-sizing:border-box}
+.header {height: 60px;background: #E2ECED;width: 100%;top: 0px;border-top:}
+.header  ul{max-width: 1100px;margin: auto;height: 100%;text-align: left}
+.header  ul,.header li{list-style: none}
+.header li{display: inline-block;line-height: 60px;background: rgb(216, 219, 219);width: 8%;text-align: center}
