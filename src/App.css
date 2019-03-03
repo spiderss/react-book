@@ -1,4 +1,4 @@
-ul,li,div{padding: 0px}
+ul,li,div,p{padding: 0px;margin: 0}
 a{text-decoration: none}
 .App {
   /* text-align: center; */
