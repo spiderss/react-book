@@ -1,0 +1,10 @@
+.caption-desc{margin:20px 0px;font-size: 14px;color: #3c3c3c;line-height: 28px}
+.caption-desc img{width: 20%;float: left}
+.caption-desc::after{clear: both;content: " ";display: block;height: 0.01px}
+.caption-desc .bookInfo{float: left;width: 75%;margin-left:2%; }
+/* .caption-desc .bookInfo p:first-child{margin-bottom: 15px; } */
+
+/* .caption-detail dl {display: flex} */
+.caption-detail h2{display: block;border-left:3px solid #e1e1e2 ;margin-bottom: 15px;font-size: 14px;font-weight: normal;padding-left:10px}
+.caption-detail dd{display: inline-block;text-align:center;padding-top:5px;padding-bottom:5px;
+  border:1px solid #e1e1e1; min-width: 200px;margin-right: 10px;margin-bottom: 10px;font-size: 13px;}

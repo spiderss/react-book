@@ -1,5 +1,6 @@
-ul,li,div,p{padding: 0px;margin: 0}
-a{text-decoration: none}
+ul,li,div,p,dd,dt,dl{padding: 0px;margin: 0}
+a{text-decoration: none;color: #3c3c3c}
+
 .App {
   /* text-align: center; */
 }
@@ -34,3 +35,4 @@ a{text-decoration: none}
   }
 }
 
+.main-content{width: 1100px;margin: 0 auto}

@@ -42,7 +42,7 @@ class BookList extends Component{
                {this.state.bookList.map((item,index)=>{
                 return (
                     <div className="bookItem" key={index}>
-                          <a href=''>
+                          <a href={'/book/caption/' +item.id}>
                             <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551450406738&di=59a2be8e5fb3d68a34ea3ef075413944&imgtype=0&src=http%3A%2F%2Fpic3.58cdn.com.cn%2Fzhuanzh%2Fn_v2b636561f0fc242bd92c5e76a95ab95e6.jpg%3Fw%3D750%26h%3D0"  width="220px"/>
                             <p className="bookName"> {item.bookName}</p>
                           </a>
