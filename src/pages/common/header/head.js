@@ -14,7 +14,7 @@ class Head extends Component{
           <div className="header">
            <ul>
               {this.state.nav.map((item,index)=>{
-                return (<li key={index}>{item.navName}</li>);
+                return (<li key={index}><a href="/">{item.navName}</a></li>);
               })}
            </ul>
            

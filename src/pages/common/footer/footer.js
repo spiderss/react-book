@@ -10,7 +10,7 @@ class Footer extends Component{
         return (
             <div id="footer" className="footer">
                 <p className="footer-content">
-                    copyRights 个人网站 &copy; 1029457343@qq.Com
+                    copyRights 个人网站 &copy; 2689592940@qq.Com
                 </p>
             </div>
         )

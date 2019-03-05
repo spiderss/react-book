@@ -7,6 +7,7 @@ import Footer from './pages/common/footer/footer'
 
 import Index from './pages/index/index'
 import Caption from './pages/caption/caption'
+import Detail from './pages/detail/detail';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Head />        
         <Route path='/' exact  component={Index}></Route>   
         <Route path='/book/caption/:id' component={Caption}></Route>   
+        <Route path='/bookDetail/:captionId' component={Detail}></Route>   
         <Footer />        
       </div>
       </Router>

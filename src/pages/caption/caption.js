@@ -11,6 +11,7 @@ class Caption extends Component{
         super(props);
         this.state = {
             "bookInfo":{
+                "bookId":this.props.match.params.id,
                 "bookName":"千金药房",
                 "bookThumb":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1551450406738&di=59a2be8e5fb3d68a34ea3ef075413944&imgtype=0&src=http%3A%2F%2Fpic3.58cdn.com.cn%2Fzhuanzh%2Fn_v2b636561f0fc242bd92c5e76a95ab95e6.jpg%3Fw%3D750%26h%3D0",
                 "author" :"孙思邈",
@@ -49,7 +50,7 @@ class Caption extends Component{
                            return ( 
                                <div key={index}>
                                     <h2 ><a href={"/bookDetail/"+item.id}>{item.captionName}</a></h2>
-                                    <SubCaption captionList={item.children} parentCaptionId={item.id} />
+                                    <SubCaption captionList={item.children} parentCaptionId={item.id} bookId={this.state.bookInfo.bookId} />
                                </div>                         
                            )                
                      })} 

@@ -5,7 +5,8 @@ class  SubCaption extends Component{
         super(props)
         this.state={
             "captionList":this.props.captionList || [],
-            "parentCaptionId":this.props.parentCaptionId
+            "parentCaptionId":this.props.parentCaptionId,
+            "bookId" : this.props.bookId
         }
     }
     render(){
